@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>test</title>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="mega.js"></script>
+    <style>
+    body{
+      font-family: "Lucida Console", Monospace;
+    }
+    td {
+      font-size: 10px;
+      padding: 2.9px 5.4px;
+      cursor: pointer;
+    }
+    #pin0{
+    position: absolute;
+    top: 18px;
+    left: 384px;
+    color: red;
+}
+div#popup{
+  font-family: sans-serif;
+  position: absolute;
+  border: 2px solid;
+  border-radius: 5px;
+  background: #FFF;
+  padding: 4px;
+}
+div#popup header{
+  width: 100%;
+}
+div#popup header p{
+  display: inline;
+  margin-top: 0px; margin-bottom: 0px;
+  margin-right: 14px;
+}
+div#popup div#data{
+  padding: 4px;
+}
+div#popup footer{
+  font-style: italic;
+}
+div#popup header div#close{
+  cursor: pointer;
+  border-top-right-radius: 3px;
+  position: absolute;
+  margin-top: -4px;
+padding: 0px 2px 1px;
+  right: 0px;
+  display: inline;
+  background: #F21B1B;
+color: #FFF;
+text-align: right;
+width: 10px;
+}
+#pin1{
+position: absolute;
+top: 18px;
+left: 259px;
+color: red;
+}
+#pin2{
+position: absolute;
+top: 18px;
+left: 553px;
+color: red;
+}
+#pin3{
+position: absolute;
+top: 37px;
+left: 740px;
+color: red;
+}
+    .holder {
+  width: auto;
+  display: inline-block;
+}
+
+.holder img {
+  width: 800px;
+  height: auto;
+}​
+
+
+
+</style>
+  </head>
+  <body>
+    <div class="holder">
+      <img src='/img/Arduino_MEGA_2560-Rev3_breadboard.svg'>
+
+<table id='pin0'>
+  <tr>
+    <td id='7'>[]</td>
+    <td id='6'>[]</td>
+    <td id='5'>[]</td>
+    <td id='4'>[]</td>
+    <td id='3'>[]</td>
+    <td id='2'>[]</td>
+    <td id='1'>X</td>
+    <td id='0'>X</td>
+  </tr>
+</table>
+<table id='pin1'>
+  <tr>
+    <td id='13'>X</td>
+    <td id='12'>X</td>
+    <td id='11'>X</td>
+    <td id='10'>X</td>
+    <td id='9'>[]</td>
+    <td id='8'>[]</td>
+  </tr>
+</table>
+<table id='pin2'>
+  <tr>
+    <td id='14'>X</td>
+    <td id='15'>X</td>
+    <td id='16'>X</td>
+    <td id='17'>X</td>
+    <td id='18'>X</td>
+    <td id='19'>X</td>
+    <td id='20'>X</td>
+    <td id='21'>X</td>
+  </tr>
+</table>
+<table id='pin3'>
+  <tr>
+    <td id='22'>[]<div>Info</div></td>
+    <td id='23'>[]<div>Info</div></td>
+  </tr>
+  <tr>
+    <td id='24'>[]<div>Info</div></td>
+    <td id='25'>[]<div>Info</div></td>
+  </tr>
+  <tr>
+    <td id='26'>[]<div>Info</div></td>
+    <td id='27'>[]<div>Info</div></td>
+  </tr>
+  <tr>
+    <td id='28'>[]<div>Info</div></td>
+    <td id='29'>[]<div>Info</div></td>
+  </tr>
+  <tr>
+    <td id='30'>[]</td>
+    <td id='31'>[]</td>
+  </tr>
+  <tr>
+    <td id='32'>[]</td>
+    <td id='33'>[]</td>
+  </tr>
+  <tr>
+    <td id='34'>[]</td>
+    <td id='35'>[]</td>
+  </tr>
+  <tr>
+    <td id='36'>[]</td>
+    <td id='37'>[]</td>
+  </tr>
+  <tr>
+    <td id='38'>[]</td>
+    <td id='39'>[]</td>
+  </tr>
+  <tr>
+    <td id='40'>[]</td>
+    <td id='41'>[]</td>
+  </tr>
+  <tr>
+    <td id='42'>[]</td>
+    <td id='43'>[]</td>
+  </tr>
+  <tr>
+    <td id='44'>[]</td>
+    <td id='45'>[]</td>
+  </tr>
+  <tr>
+    <td id='46'>[]</td>
+    <td id='47'>[]</td>
+  </tr>
+  <tr>
+    <td id='48'>[]</td>
+    <td id='49'>[]</td>
+  </tr>
+  <tr>
+    <td id='50'>X</td>
+    <td id='51'>X</td>
+  </tr>
+  <tr>
+    <td id='52'>X</td>
+    <td id='53'>X</td>
+  </tr>
+</table>
+<div id='popup'><header><p id='title'>Arduino</p><div id='close'>X</div></header>
+  <div id='data'>
+  </div>
+<footer></footer></div>
+</div>
+<div id='patate'></div>
+
+  </body>
+</html>
